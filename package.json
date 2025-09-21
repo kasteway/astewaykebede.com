@@ -1,0 +1,31 @@
+{
+  "name": "kasteway-portfolio",
+  "version": "1.0.0",
+  "description": "AI/Data Science Portfolio Website for Kasteway Kebede",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "echo 'Deploy to your preferred platform'"
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "data-science",
+    "machine-learning",
+    "python",
+    "web-development"
+  ],
+  "author": "Kasteway Kebede",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasteway/astewaykebede.com"
+  },
+  "homepage": "https://astewaykebede.com"
+}
