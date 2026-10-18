@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081623"/><stop offset="1" stop-color="#123247"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#46d7d1"/><stop offset="1" stop-color="#69a7ff"/></linearGradient>
+    <style>.t{font-family:Inter,Arial,sans-serif;fill:#ecf6ff}.m{font-family:Inter,Arial,sans-serif;fill:#9db1c2}.k{font-family:Inter,Arial,sans-serif;fill:#46d7d1;font-weight:700;letter-spacing:2px}.card{fill:#102538;stroke:#29445a}.v{font-family:Inter,Arial,sans-serif;fill:#ecf6ff;font-size:30px;font-weight:800}.l{font-family:Inter,Arial,sans-serif;fill:#9db1c2;font-size:11px;font-weight:700;letter-spacing:1px}</style>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="38" y="42" class="k" font-size="12">OPERATIONS COMMAND CENTER</text>
+  <text x="38" y="94" class="t" font-size="42" font-weight="800">Flight Operations Intelligence Copilot</text>
+  <text x="38" y="127" class="m" font-size="16">697,754 real U.S. DOT flights → governed KPIs → traceable driver analysis</text>
+  <rect x="953" y="38" width="105" height="38" rx="10" class="card"/><text x="976" y="62" class="t" font-size="13" font-weight="700">National</text>
+  <rect x="1068" y="38" width="100" height="38" rx="10" class="card"/><text x="1085" y="62" class="t" font-size="13" font-weight="700">Jul 27</text>
+  <g transform="translate(38 165)">
+    <rect width="214" height="112" rx="14" class="card"/><text x="18" y="28" class="l">FLIGHTS</text><text x="18" y="68" class="v">114,445</text><text x="18" y="94" class="m" font-size="12">Latest operating week</text>
+    <g transform="translate(227)"><rect width="214" height="112" rx="14" class="card"/><text x="18" y="28" class="l">ON-TIME ARRIVALS</text><text x="18" y="68" class="v">72.4%</text><text x="18" y="94" fill="#ff6b7a" font-family="Inter,Arial" font-size="12">−2.3 pts vs prior week</text></g>
+    <g transform="translate(454)"><rect width="214" height="112" rx="14" class="card"/><text x="18" y="28" class="l">AVG ARRIVAL DELAY</text><text x="18" y="68" class="v">24.2 min</text><text x="18" y="94" fill="#ff6b7a" font-family="Inter,Arial" font-size="12">+3.9 min vs prior week</text></g>
+    <g transform="translate(681)"><rect width="214" height="112" rx="14" class="card"/><text x="18" y="28" class="l">CANCELLATION RATE</text><text x="18" y="68" class="v">4.1%</text><text x="18" y="94" fill="#ff6b7a" font-family="Inter,Arial" font-size="12">+1.7 pts vs prior week</text></g>
+    <g transform="translate(908)"><rect width="214" height="112" rx="14" class="card"/><text x="18" y="28" class="l">AVG TAXI-OUT</text><text x="18" y="68" class="v">19.3 min</text><text x="18" y="94" class="m" font-size="12">Operational flow</text></g>
+  </g>
+  <rect x="38" y="294" width="696" height="286" rx="16" class="card"/><text x="60" y="328" class="t" font-size="18" font-weight="700">Weekly on-time performance</text><text x="60" y="350" class="m" font-size="12">Arrival within 15 minutes of schedule</text>
+  <line x1="74" y1="535" x2="700" y2="535" stroke="#29445a"/>
+  <g fill="url(#bar)"><rect x="105" y="397" width="55" height="138" rx="7"/><rect x="220" y="441" width="55" height="94" rx="7"/><rect x="335" y="458" width="55" height="77" rx="7"/><rect x="450" y="399" width="55" height="136" rx="7"/><rect x="565" y="429" width="55" height="106" rx="7"/></g>
+  <g class="t" font-size="12" font-weight="700"><text x="110" y="385">74.8%</text><text x="225" y="429">71.5%</text><text x="340" y="446">70.2%</text><text x="455" y="387">74.7%</text><text x="570" y="417">72.4%</text></g>
+  <rect x="752" y="294" width="416" height="286" rx="16" fill="#102b3c" stroke="#2c7180"/><text x="776" y="328" class="t" font-size="18" font-weight="700">Ask the operations copilot</text><text x="776" y="351" class="m" font-size="12">Grounded in the same governed scorecard data</text>
+  <rect x="776" y="374" width="152" height="32" rx="16" fill="#173e50" stroke="#46d7d1"/><text x="796" y="395" class="t" font-size="12">What changed?</text>
+  <rect x="776" y="426" width="368" height="122" rx="8" fill="#091c29"/><rect x="776" y="426" width="3" height="122" fill="#46d7d1"/><text x="795" y="454" class="k" font-size="13">ON-TIME PERFORMANCE DECLINED 2.3 POINTS.</text><text x="795" y="482" class="m" font-size="13">Volume decreased 27.9%, while average</text><text x="795" y="503" class="m" font-size="13">arrival delay rose to 24.2 minutes.</text><text x="795" y="524" class="m" font-size="13">Late aircraft was the largest delay source.</text>
+  <text x="38" y="612" class="m" font-size="12">Python → structured JSON → interactive dashboard → diagnostic decision support</text>
+</svg>
