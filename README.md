@@ -1,95 +1,55 @@
-# Asteway Kebede - Data Science Portfolio
+# Asteway Kebede — Data Analytics & Applied AI Portfolio
 
-A modern, responsive portfolio website showcasing expertise in Data Science, Machine Learning, and AI Applications.
+Source for [astewaykebede.com](https://www.astewaykebede.com), a recruiter-focused portfolio connecting operational analytics, machine learning, forecasting, reporting automation, and applied AI.
 
-## 🚀 Quick Deploy Options
+## Portfolio story
 
-### Option 1: Vercel (Recommended)
-1. Push this repository to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your GitHub repository
-4. Connect your domain `astewaykebede.com`
-5. Deploy!
+The site presents a clear progression from finance and operational analytics into AI-enabled decision support. It highlights the ability to:
 
-### Option 2: Netlify
-1. Push this repository to GitHub
-2. Go to [netlify.com](https://netlify.com)
-3. Connect your GitHub repository
-4. Add custom domain `astewaykebede.com`
-5. Deploy!
+- define governed metrics and diagnostic workflows;
+- build analytical layers with Python, SQL, and BigQuery;
+- create Tableau, Power BI, and interactive HTML reporting;
+- connect structured data to AI agents and custom GPTs;
+- apply machine learning and forecasting to operational decisions;
+- communicate technical systems in clear business language.
 
-### Option 3: GitHub Pages
-1. Push this repository to GitHub
-2. Go to repository Settings > Pages
-3. Select source branch (main)
-4. Add custom domain in Pages settings
-5. Deploy!
+## Featured work
 
-## 🛠️ Local Development
+### Flight Operations Intelligence Copilot
 
-1. Clone the repository
-2. Open `index.html` in your browser
-3. Or use a local server:
-   ```bash
-   python -m http.server 8000
-   # or
-   npx serve .
-   ```
+An operational analytics system built from 697,000 real U.S. DOT flight records, ten KPIs, national and regional scorecards, and traceable driver analysis.
 
-## 📁 Project Structure
+[Project page](https://www.astewaykebede.com/flight-ops.html) · [GitHub repository](https://github.com/kasteway/flight-ops-intelligence)
 
-```
-astewaykebede.com/
-├── index.html          # Main portfolio page
-├── README.md          # This file
-└── assets/            # Future: images, CSS, JS files
+### Applied AI Field Guide
+
+A portable learning lab covering model selection, context engineering, tools, embeddings, RAG, MCP, agents, evaluation, security, governance, and production monitoring.
+
+[Project page](https://www.astewaykebede.com/ai-field-guide.html) · [GitHub repository](https://github.com/kasteway/applied-ai-learning-lab)
+
+## Technical structure
+
+The portfolio is a lightweight static site built with semantic HTML, responsive CSS, and minimal JavaScript. Vercel deploys the `public` directory automatically from the main branch and serves the custom domain.
+
+```text
+public/
+├── index.html
+├── flight-ops.html
+├── ai-field-guide.html
+├── styles.css
+├── case.css
+├── resume.pdf
+└── assets/
 ```
 
-## 🎨 Customization
+## Local preview
 
-### Personal Information
-- Update personal information in `index.html`
-- Replace placeholder image with your actual photo
-- Add your real GitHub project links
-- Update contact information
-- Modify color scheme in CSS variables
+```bash
+python3 -m http.server 8000
+```
 
-### Adding Your Resume
-1. **Replace the resume file**: Drop your actual resume at `public/resume.pdf`
-2. **Update contact info**: Ensure all contact details are current
-3. **Test the link**: Verify the resume downloads correctly
+Open `http://localhost:8000`.
 
-### Updating Project Cards
-1. **Edit project information** in the `index.html` file
-2. **Update project outcomes** with real metrics and achievements
-3. **Add real GitHub links** to your actual repositories
-4. **Update demo links** to your live applications
-5. **Modify tech stacks** to reflect actual technologies used
+## Links
 
-### Email Forwarding Setup
-1. **Set up ImprovMX** (or similar service) for email forwarding
-2. **Configure** `hello@astewaykebede.com` to forward to your personal email
-3. **Test** the contact form and email links
-4. **Update** any hardcoded email addresses if needed
-
-## 📱 Features
-
-- ✅ Fully responsive design
-- ✅ Modern gradient background
-- ✅ Smooth scrolling navigation
-- ✅ Animated elements
-- ✅ Mobile-optimized
-- ✅ SEO-friendly structure
-- ✅ Fast loading times
-
-## 🔗 Links
-
-- **Website**: https://astewaykebede.com
-- **GitHub**: https://github.com/kasteway
-- **LinkedIn**: https://www.linkedin.com/in/kasteway/
-- **Email**: hello@astewaykebede.com
-- **Resume**: https://astewaykebede.com/resume.pdf
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+[Portfolio](https://www.astewaykebede.com) · [LinkedIn](https://www.linkedin.com/in/kasteway/) · [GitHub](https://github.com/kasteway)
